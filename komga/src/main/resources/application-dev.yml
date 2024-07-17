@@ -1,0 +1,30 @@
+komga:
+  database:
+    file: "file:database?mode=memory"
+  tasks-db:
+    file: "file:tasks?mode=memory"
+  cors.allowed-origins:
+    - http://localhost:8081
+  oauth2-account-creation: false
+  config-dir: ${rootDir}/config-dir
+logging:
+  level:
+    org.apache.activemq.audit.message: WARN
+    org.gotson.komga: DEBUG
+#    org.jooq: DEBUG
+#    org.jooq.tools.LoggerListener: DEBUG
+#    web: DEBUG
+#    com.zaxxer.hikari: DEBUG
+#    org.springframework.boot.autoconfigure: DEBUG
+#    org.springframework.security.web.FilterChainProxy: DEBUG
+  logback:
+    rollingpolicy:
+      max-history: 1
+springdoc:
+  cache:
+    disabled: true
+
+server:
+  port: 8080
+#  servlet:
+#    context-path: /komga
