@@ -7,7 +7,7 @@
 
 [![Translation status](https://hosted.weblate.org/widgets/komga/-/webui/svg-badge.svg)](https://hosted.weblate.org/engage/komga/)
 
-# ![app icon](./.github/readme-images/app-icon.png) Komga
+# ![app icon](./.github/readme-images/app-icon.png) Komga.
 
 Komga is a media server for your comics, mangas, BDs, magazines and eBooks.
 
